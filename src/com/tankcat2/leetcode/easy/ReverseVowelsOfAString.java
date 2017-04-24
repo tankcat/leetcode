@@ -44,7 +44,15 @@ public class ReverseVowelsOfAString {
         return String.valueOf(s_char);
     }
     public static void main(String[] args){
-        ReverseVowelsOfAString obj=new ReverseVowelsOfAString();
-        System.out.println(obj.reverseVowels(".,"));
+        /*ReverseVowelsOfAString obj=new ReverseVowelsOfAString();
+        System.out.println(obj.reverseVowels(".,"));*/
+        double pi=0;
+        double dx=1e-3;
+        long begin=System.currentTimeMillis();
+        for(double x=-1000;x<=+1000;x+=dx){
+            pi+=Math.exp(-x*x)*dx;
+        }
+        System.out.println(System.currentTimeMillis()-begin);
+        System.out.println(pi*pi);
     }
 }
