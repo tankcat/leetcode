@@ -1,4 +1,4 @@
-package com.tankcat2.leetcode.Hard;
+package com.tankcat2.leetcode.hard;
 
 /**
  * Created by stream on 17-4-26.
